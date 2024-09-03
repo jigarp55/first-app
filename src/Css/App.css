@@ -1,0 +1,70 @@
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .review-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .review-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .review-card h2 {
+    margin: 10px 0 5px;
+  }
+  
+  .review-card h4 {
+    margin: 0 0 10px;
+    color: gray;
+  }
+  
+  .review-card p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  
+  .people-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .person-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 250px;
+    text-align: center;
+  }
+  
+  .person-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .people-list h2 {
+    margin: 10px 0 5px;
+  }
+  
+  .people-list p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
